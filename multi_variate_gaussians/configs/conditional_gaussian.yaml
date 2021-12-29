@@ -1,0 +1,13 @@
+space_kwargs: # Optional defaults to below kwargs
+  x_lims:
+    - -2.5
+    - 2.5
+  y_lims:
+    - -2.5
+    - 2.5
+  segments: 51
+multivariate_params:
+  mean: [0, 0]
+  covariance: [[1, 0.8], [0.8, 1]]
+  x_condition: 0.5
+  y_condition: -1.5

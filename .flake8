@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 100
+ignore =
+        # https://github.com/ambv/black#slices
+        E203,
+        E402,
+        # https://github.com/ambv/black#line-breaks--binary-operators
+        W503,
+        W504,
+        # scientific notation
+        W605,

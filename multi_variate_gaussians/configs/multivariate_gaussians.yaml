@@ -1,0 +1,21 @@
+- mean: [0, 0]
+  covariance: [[1, -0.8], [-0.8, 1]]
+  plot_kwargs: # Optional levels defaults to 50 and title to ""
+    levels: 50
+    title: Anit-Correlated
+  space_kwargs: # Optional defaults to below kwargs
+    x_lims:
+      - -2.5
+      - 2.5
+    y_lims:
+      - -2.5
+      - 2.5
+    segments: 51
+- mean: [0, 0]
+  covariance: [[1, 0], [0, 1]]
+  plot_kwargs:
+    title: Independent
+- mean: [0, 0]
+  covariance: [[1, 0.8], [0.8, 1]]
+  plot_kwargs:
+    title: Correlated
